@@ -1,6 +1,6 @@
 var bodyParser = require('body-parser');
 
-var data = [{item:'Bring Milk'},{item:'walk dog'}];
+var data = [];
 
 var urlencodedParser = bodyParser.urlencoded({extended: false});
 
